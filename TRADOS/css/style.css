@@ -1,0 +1,264 @@
+body {
+    font-size: 14px;
+    background-color: #15181e;
+    color: #c4c4c4;
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+/* LOGO */
+.logo {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0;
+    font-size: 18px;
+}
+
+.navbar-panel {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    margin-right: auto;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 14px;
+}
+
+.basket-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 14px;
+}
+.basket-image {
+    padding-right: 3px;
+}
+
+.button-login {
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+    background-color: #202327;
+    cursor: pointer;
+    padding: 7px;
+}
+
+/* SEARCH PANEL */
+.search-panel {
+    height: 35px;
+    background: #c4c4c4;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+}
+
+.search-input {
+    flex-grow: 1;
+    background: #fff;
+    border-radius: 5px;
+    border: none;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.search-button {
+    background: #202327;
+    border: none;
+    color: #c4c4c4;
+    padding-left: 20px;
+    padding-right: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px 3px 3px 3px;
+}
+
+.search-button-text {
+    margin-left: 5px;
+}
+
+/* INTRO */
+.intro {
+    width: 1146px;
+    height: 840px;
+    background-image: url(https://p0.pikist.com/photos/303/564/work-desktop-computer-desk-keyboard-business-workplace-mac-technology.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.intro-text {
+    width: 600px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 150px;
+    line-height: 1.7;
+    font-size: 36px;
+    color: #000;
+}
+
+/* CARDS */
+
+.card-image {
+    border-radius: 10px;
+    width: 266px;
+    height: 283px;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.card-title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 261px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-price {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #c4c4c4;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+/* POPUP */
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: all 0.3s cubic-bezier(0.55, 0.64, 0.61, 0.87) 0s;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-content {
+    background-color: #fff;
+    color: #202327;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font: 28px 'Arial';
+    color: black;
+    text-decoration: none;
+}
+.popup-title {
+    font-size: 33px;
+    margin: 15px;
+    font-weight: bold;
+}
+.popup-list {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 300px;
+    width: 550px;
+}
+.popup-list ul {
+    padding-left: 0;
+}
+.popup-list ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.popup-cards {
+    margin: 15px 15px;
+    font: 12pt 'Arial';
+    color: black;
+    text-align: left;
+}
+
+
+.popup-price {
+
+    margin: 0 15px;
+    font-size: 14px;
+    color: black;
+    text-align: right;
+}
+
+.checkout {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #15181e;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

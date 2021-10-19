@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet"
+          href="css/normalize.css">
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/styles.css"/>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header-top container">
+    <!-- LOGO -->
+    <div class="navbar">
+        <a href="index.html"
+           class="logo">
+            <span class="logo">TRADOS</span>
+        </a>
+        <!-- NAVBAR PANEL -->
+        <nav class="navbar-panel">
+            <!-- NAVBAR MENU -->
+            <div class="navbar-menu">
+                <a href="#"
+                   class="navbar-item"><span class="navbar-item">Категории</span></a>
+                <a href="#"
+                   class="navbar-item"><span class="navbar-item">Доставка</span></a>
+                <a href="#"
+                   class="navbar-item"><span class="navbar-item">О нас</span></a>
+            </div>
+        </nav>
+        <div class="basket">
+            <a class="basket-link"
+               href="#popup">
+                <img class="basket-image"
+                     src="https://mstatic.wbstatic.net/sitemobile/4.10.0/static/media/basket.665fe316.svg"
+                     alt="">
+                <span>Корзина</span>
+            </a>
+        </div>
+
+        <div class="login">
+            <button class="button-login">Вход и регистрация</button>
+        </div>
+
+    </div>
+
+    <!-- SEARCH PANEL -->
+    <div class="search-panel container">
+        <input type="search"
+               class="search-input"
+               placeholder="Поиск по товарам"/>
+        <button class="search-button">
+            <svg
+                    class="search-icon"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+                <g clip-path="url(#clip0)">
+                    <path
+                            d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z"
+                            fill="white"
+                    />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="15"
+                              height="15"
+                              fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+
+            <span class="search-button-text">Найти</span>
+        </button>
+    </div>
+</header>
+
+
+<div id="popup"
+     class="popup">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#"
+               class="popup-close">+</a>
+            <div class="popup-title">Ваш заказ:</div>
+            <div class="popup-list">
+<!--                POPUP-BASKET-->
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+                <div class="popup-basket">
+                    <div class="popup-basket-name">
+                        <img class="popup-basket-image"
+                             src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                             alt="photo"/>
+                        <span class="popup-card">ЗСмартфон POCO F3 (8/256gb) черный/ Night Black</span>
+                    </div>
+
+                    <div class="basket-number">
+                        <span>x1</span>
+                    </div>
+
+                    <div class="basket-price">
+                        <span>31 990 ₽</span>
+                    </div>
+                </div>
+
+            </div>
+            <button class="checkout">Заказать</button>
+        </div>
+    </div>
+</div>
+
+<!-- INTRO -->
+<div class="intro-big">
+    <div class="intro container">
+        <h1 class="intro-text">
+            Каждый день в мире электроники выпускаются новые устройства и гаджеты,
+            уследить за которыми практически невозможно. Мы анализируем рынок
+            электроники вместо вас и предлагаем вам крутые находки. Здесь Вы найдёте
+            самые топовые устройства и гаджеты.
+        </h1>
+    </div>
+</div>
+<!-- recommendations -->
+
+<main class="main container">
+    <div class="page-title"><span>Рекомендации для вас</span></div>
+    <div class="cards">
+        <!-- CARD -->
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a href="#"
+                   class="card-link">
+                    <img class="card-image"
+                         src="https://miodessa.com/wp-content/uploads/2021/03/poco_f3_12-600x600.jpg"
+                         alt="photo"/>
+                    <h2 class="card-title">
+                        Смартфон POCO F3 (8/256gb) черный/ Night Black
+                    </h2>
+                </a>
+            </div>
+            <div class="card-footer">
+                <strong class="card-price"> 31 990 ₽ </strong>
+                <button class="card-in-basket"><span>В корзину</span></button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="footer container">
+    <hr class="header_underline"/>
+    <ul class="footer-item">
+        <li class="menu-item">
+            <a href="#"
+               class="menu-link">Адресс: ул. Мира 97</a>
+        </li>
+        <li class="menu-item">
+            <div class="phone">
+                <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
